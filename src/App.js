@@ -39,13 +39,18 @@
 //  }
 //  export default hello;
 
-import PropsExample from './PropsExample'
+//import FuncPropExample from './FuncPropExample'
+import StateExample from "./StateExample"
 function hello() {
   return(
-    <div>
-     <h1>This is abt props</h1>
-     <PropsExample name="ravi" age="20"/>
-      </div>
+    // <div>
+    //  <h1>This is abt props</h1>
+    //  <PropsExample name="ravi" age="20"/>
+    //  <PropsExample name="teja" age="20"/>    
+    //  <PropsExample name="saikumar" age="20"/> 
+    //   </div>
+    //<FuncPropExample framework="react.js" id="101" year="2018"/>
+    <StateExample/>
     )
 }
 export default hello
