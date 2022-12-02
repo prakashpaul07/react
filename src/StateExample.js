@@ -6,6 +6,7 @@ export default class StateExample extends React.Component {
         age:20
     }
   render() {
+   // console.log(this.state.names)
     return (
       <div>
         StateExample

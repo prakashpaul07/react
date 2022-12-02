@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 // import './App.css';
 
+//import StateExample from "./StateExample"
+
 // function App() {
 //   return (
 //     <div className="App">
@@ -40,17 +42,20 @@
 //  export default hello;
 
 //import FuncPropExample from './FuncPropExample'
-import StateExample from "./StateExample"
+//import StateExample from "./StateExample"
+import Events from "./Events"
 function hello() {
   return(
-    // <div>
+    //<div>
     //  <h1>This is abt props</h1>
     //  <PropsExample name="ravi" age="20"/>
     //  <PropsExample name="teja" age="20"/>    
     //  <PropsExample name="saikumar" age="20"/> 
     //   </div>
     //<FuncPropExample framework="react.js" id="101" year="2018"/>
-    <StateExample/>
+    //<StateExample/>
+    
+    <Events/>
     )
 }
 export default hello
