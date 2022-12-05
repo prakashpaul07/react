@@ -16,7 +16,8 @@ export default class Events extends React.Component {
        })
     }
   render() {
-   // console.log(this.state.username)
+   //
+   console.log(this.state.username)
     return (
     <div>
         <input type="text" name="username" placeholder='user' value={this.state.username} onChange={this.handleUser}/>

@@ -1,3 +1,37 @@
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Home from './Component/Home'
+import About from './Component/About'
+import Contact from './Component/Contact'
+import Navbar from './Component/Navbar'
+import NotFound from './Component/NotFound'
+
+function hello() {
+  return(
+    //<div>
+    //  <h1>This is abt props</h1>
+    //  <PropsExample name="ravi" age="20"/>
+    //  <PropsExample name="teja" age="20"/>    
+    //  <PropsExample name="saikumar" age="20"/> 
+    //   </div>
+    //<FuncPropExample framework="react.js" id="101" year="2018"/>
+    //<StateExample/>
+    
+    // <Events/>
+    <div>
+      <BrowserRouter>
+    <Navbar/>
+      <Routes>
+        <Route path="/"element={<Home/>}/>
+        <Route path="/about"element={<About/>}/>
+        <Route path="/contact"element={<Contact/>}/>
+        <Route path='*' element={<NotFound/>}/>
+      </Routes>
+      </BrowserRouter>
+    </div>
+    )
+}
+export default hello
+
 // import logo from './logo.svg';
 // import './App.css';
 
@@ -43,19 +77,4 @@
 
 //import FuncPropExample from './FuncPropExample'
 //import StateExample from "./StateExample"
-import Events from "./Events"
-function hello() {
-  return(
-    //<div>
-    //  <h1>This is abt props</h1>
-    //  <PropsExample name="ravi" age="20"/>
-    //  <PropsExample name="teja" age="20"/>    
-    //  <PropsExample name="saikumar" age="20"/> 
-    //   </div>
-    //<FuncPropExample framework="react.js" id="101" year="2018"/>
-    //<StateExample/>
-    
-    <Events/>
-    )
-}
-export default hello
+//import Events from "./Events"
