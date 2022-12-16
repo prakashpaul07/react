@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    text-align: center;
+    align-items: center;
+   background-image: url(https://s3.envato.com/files/382231202/light.jpg);
+    padding-top: 20%;
+    margin: 1%;
+}
+p{
+    color: black;
+    font-size: 2rem;
+    padding: 1%;
+}
+input{
+    padding: 0.4%;
+    background-color: aliceblue;
+}  
+button{
+    margin-top: 2%;
+} 
+button:hover{
+    color: white;
+    background-color:blueviolet;
+}
